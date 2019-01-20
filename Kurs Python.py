@@ -1,10 +1,11 @@
+#Задачка про офика
 zakaz_1 =100
 price_borsh = 2.75
 porsia_1 = zakaz_1 // price_borsh
 sdacha_1 = zakaz_1 % price_borsh
 sdacha_1 = round(sdacha_1, 2)
-print('порций борща ' + str (porsia_1))
-print('чай с борща ' + str(sdacha_1))
+print('порций супца ' + str (porsia_1))
+print('чай с супца ' + str(sdacha_1))
 zakaz_2 = 100
 price_palemans = 2.19
 porsia_2 = zakaz_2 // price_palemans
