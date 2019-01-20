@@ -20,8 +20,18 @@ for blah in range(len(key)): #Apologies for the lame variable names
     d = key[x]
     print(d)
 """
+"""
+import random
+keyres = 'AaBbCcDdEeFfGgHhJjKkLlMmNnOoPpQqRrSsTtUuVvWwXxYyZz0123456789'
+keys = 3
+for keys in range(keys):
+    a = "".join(random.sample(keyres, len(keyres)))
+print(a)
+"""
 
 import random
-seq = 'AaBbCcDdEeFfGgHhJjKkLlMmNnOoPpQqRrSsTtUuVvWwXxYyZz0123456789'
-a = "".join(random.sample(seq, len(seq)))
-print(a)
+keyres = 'AaBbCcDdEeFfGgHhJjKkLlMmNnOoPpQqRrSsTtUuVvWwXxYyZz0123456789'
+keys = 3
+for _ in range(keys):
+    a = (''.join(random.choice(keyres) for _ in range(len(keyres))))
+    print(a)
